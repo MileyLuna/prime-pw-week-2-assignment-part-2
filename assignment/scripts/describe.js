@@ -26,9 +26,9 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
+// Make variable called name and set as Dane.
+// We check if name is the same as Mary. If so, say Hi, else say How do you do. Name is not the same as Mary, so
+// we console.log 'How do you do?'
 //
 
 //CODE
@@ -46,9 +46,10 @@ if (name === 'Mary') {
 
 // 2. WRITE YOUR DESCRIPTION HERE
 // 
-// 
-// 
-//
+// Make variable as code and set as number 123.
+// Check if code is excatly 123 and if code is more than 250
+// Code is only 123, so we console.log 'super' and multiply code by 2.
+// console.log secret
 
 //CODE
 /*
@@ -70,10 +71,10 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
+// Make boolean variable as isStudent and set as true. Make two variable; age is set as 34, and zip is set as 55407.
+// Check if isStudent is exactly true AND zip is bigger than 80000. If not ture, check if isStudent is false OR age is less than 30,
+// If pervious is not true check if isStudent is true. isStatement is true so we console.log 'Welcome to Prime'
 // 
-// 
-// 
-//
 
 //CODE
 /*
@@ -134,10 +135,14 @@ let colorOne = 'red';
 let colorTwo = 'blue';
 let mix = true;
 
+//FIX - colorOne to blue and colorTwo to red, per the instruction
+
 if (mix === true) {
   colorOne = 'purple';
 }
 */
+
+//FIX - add 'colorTwo = 'purple'' as well, per instruction
 
 //5. We start with two variables -- temp is set to 40 and time is set to 4.
 // We check if temp is higher than 39 and if time is greater or equal to  4 
@@ -146,6 +151,9 @@ if (mix === true) {
 /*
 let temp = 40;
 const time = 4;
+
+//FIX - change const as 'let'. Per instruction there's two variable, not one variable and one constant.
+//FIX - change || as &&. Per instruction 'temp is higher than 39 "AND"'...
 
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
@@ -159,6 +167,10 @@ if (temp > 39 || time >= 4) {
 /*
 let age = 21;
 const minAge = 21;
+
+//FIX - change const to "let" as instruction states two variable
+//FIX - change console.log to 'no entry' as age and minAge is the same
+
 
 if(minAge <= age) {
   console.log('no entry');
